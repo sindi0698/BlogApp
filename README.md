@@ -1,5 +1,6 @@
 # BlogApp
 Blog App
+
 Technical Requirements
 
 Create a Table in SQL database(MySQL,Postgres ... whatever you are more familiar)
