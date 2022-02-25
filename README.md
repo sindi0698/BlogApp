@@ -1,4 +1,4 @@
-# BlogApp
+
 Blog App<br /><br />
 
 Technical Requirements<br />
@@ -45,4 +45,4 @@ Form to create a new blogpost.<br />
 Table to show all blogposts and their attribute values. Bonus: Include filters to search for blogposts by title or category<br />
 The table mentioned above should have an actions columns, with buttons to edit and delete<br />
 Edit button redirect to the view of editing a blogpost: form with fields filled with blogpost data<br />
-Delete button used for deleting the entity. Before deleting, show a confirmation dialog<br />
+Delete button used for deleting the entity. Before deleting, show a confirmation dialog.<br />
