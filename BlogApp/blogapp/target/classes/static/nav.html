@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand" href="/">Blog App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">
+                        <button class="btn btn-primary">Home</button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/new-blog.html">
+                        <button class="btn btn-primary">New Post</button>
+                    </a>
+                </li>
+            </ul>
+            <form id="searchField" class="d-flex flex-row justify-content-between align-items-center me-auto mb-2 mb-lg-0" method="get">
+                <label for="blogCategory">Filter by category:
+                    <select name="blogCategory" id="blogCategory" class="default-padding-input mx-2 px-3 rounded">
+                        <option value="0" hidden>Choose category...</option>
+                        <option value="0">All</option>
+                        <option value="1">Art</option>
+                        <option value="2">Education</option>
+                        <option value="3">Food</option>
+                        <option value="4">Fashion</option>
+                        <option value="5">Health & Fitness</option>
+                        <option value="6">Music</option>
+                        <option value="7">Movies & Tv Shows</option>
+                        <option value="8">Sports</option>
+                    </select>
+                </label>
+                <input id="keyword" class="default-padding-input mx-2 rounded" type="search" placeholder="Search" aria-label="Search">
+                <button id="searchButton" class="btn btn-success" type="submit">Search</button>
+            </form>
+            <a href="/logout">
+                <button class="btn btn-outline-light">Log Out</button>
+            </a>
+        </div>
+    </div>
+</nav>

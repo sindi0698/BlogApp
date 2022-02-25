@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&family=Qahiri&display=swap');
+
+body {
+    min-height: 100%;
+    position: relative;
+    font-family: Montserrat, serif !important;
+    background-image: url("../css/img/bckg.jpg");
+    background-size: unset;
+    background-repeat: repeat;
+}
+
+.blogpost {
+    background-color: white;
+    transition: ease 0.2s;
+}
+
+.blogpost:hover {
+    background-color: #eee;
+    transition: ease 0.2s;
+}
+
+.default-padding-input {
+    padding: 0.375rem 0.75rem;
+    box-sizing: border-box !important;
+}
